@@ -10,7 +10,7 @@ Mapping Add-on relies on Driver version 2.0 and JPA 2.1.
 Read more about [Datastax Java Driver, Cassandra and CQL3](http://www.datastax.com/documentation/gettingstarted/index.html).
 
 [More Usage Samples in Unit Tests]
-(https://github.com/valchkou/cassandra-driver-mapping/blob/master/src/test/java/com/datastax/driver/mapping/)
+(https://github.com/pankajmalhotra/cassandra-driver-mapping/blob/master/src/test/java/com/datastax/driver/mapping/)
 
 ### Table of Contents  
 - [Features](#features)  
@@ -79,9 +79,9 @@ All is built-in and taken care of. Entity definition will be automatically [sync
 Install in your application from Maven Central using the following dependency:
 ```xml
     <dependency>
-      <groupId>com.valchkou.datastax</groupId>
+     <groupId>org.ul.cassandra.driver</groupId>
       <artifactId>cassandra-driver-mapping</artifactId>
-      <version>2.0.2</version>
+      <version>1.0.0</version>
     </dependency>
 ```
 
@@ -498,6 +498,8 @@ mappingSession.remove(id, Entity.class, "dogs", removeDogs);
 // remove all items
 mappingSession.deleteValue(id, Entity.class, "dogs");
 ```
+      
+      
 
 <a name="collections_map"/>
 - Map operations

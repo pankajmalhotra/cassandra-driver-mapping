@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.valchkou.datastax</groupId>
+  <groupId>org.ul.cassandra.driver</groupId>
   <artifactId>cassandra-driver-mapping</artifactId>
-  <version>2.0.2</version>
+  <version>1.0.0</version>
   <packaging>jar</packaging>	
   <name>Entity Mapping Addon for DataStax Java Driver</name>
   <description>Entity Mapping Addon JPA 2.1 compatible  for DataStax Java Driver 2.0+ for Cassandra. </description>
-  <url>https://github.com/valchkou/cassandra-driver-mapping</url>
+  <url>https://github.com/pankajmalhotra/cassandra-driver-mapping</url>
 	<properties>
 		<java-src-version>1.6</java-src-version>
 		<java-compile-version>1.6</java-compile-version>
@@ -97,16 +97,16 @@
 	</build>
 
   <scm>
-    <connection>scm:git:git://github.com/valchkou/cassandra-driver-mapping.git</connection>
-    <developerConnection>scm:git:git@github.com:valchkou/cassandra-driver-mapping.git</developerConnection>
-    <url>https://github.com/valchkou/cassandra-driver-mapping</url>
-    <tag>cassandra-driver-mapping-2.0.0-rc2</tag>
+    <connection>scm:git:git://github.com/pankajmalhotra/cassandra-driver-mapping.git</connection>
+    <developerConnection>scm:git:git@github.com:pankajmalhotra/cassandra-driver-mapping.git</developerConnection>
+    <url>https://github.com/pankajmalhotra/cassandra-driver-mapping</url>
+    <tag>cassandra-driver-mapping-1.0.0-rc1</tag>
   </scm>
 
   <developers>
     <developer>
-      <name>Eugene Valchkou</name>
-      <organization>valchkou</organization>
+      <name>Pankaj Malhotra</name>
+      <organization>UL</organization>
     </developer>
   </developers>
   
